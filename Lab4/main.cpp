@@ -60,6 +60,8 @@ int main()
 		cout << DNA[j].content << " " << DNA[j].inv << endl;
 	}*/
 	cout << endl;
+
+	//Ñ¡ÔñÅÅĞò
 	DNA_Struct min = DNA_Struct(DNA[0].content, DNA[0].inv);
 	int minIndex = 0;
 	for (int i = 0; i < m; i++) {
